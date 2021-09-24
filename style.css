@@ -5,8 +5,23 @@ body {
 .cars-gallery {
     width: 80%;
     margin: auto;
+    height: 100%;
 }
 
-.slick-slide img {
+.slick-slide .size-box {
+    display: block;
+    position: relative;
+    box-sizing: content-box;
+    padding-top: calc(55%);
+    overflow: hidden;
+}
+
+.slick-slide .size-box img {
+    position: absolute;
+    inset: 0px;
+    width: auto;
     max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    margin: auto;
 }
