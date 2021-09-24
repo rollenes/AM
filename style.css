@@ -1,0 +1,12 @@
+body {
+    background-color: #ccc;
+}
+
+.cars-gallery {
+    width: 80%;
+    margin: auto;
+}
+
+.slick-slide img {
+    max-width: 100%;
+}
